@@ -13,6 +13,7 @@
     overflow-y: scroll;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 *::-webkit-scrollbar {
@@ -78,4 +79,10 @@ body {
     -ms-flex-align: center;
     align-items: center;
     font-size: 80px;
+}
+
+@media (hover: none) {
+    .toggle-button-container {
+        cursor: default;
+    }
 }
